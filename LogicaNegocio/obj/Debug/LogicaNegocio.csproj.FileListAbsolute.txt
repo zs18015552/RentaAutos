@@ -1,0 +1,46 @@
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\AccesoDatos.dll
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\Entidades.dll
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\Entidades.pdb
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\AccesoDatos.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\Entidades.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\Entidades.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\BDAutos.mdf
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\LogicaNegocio\bin\Debug\BDAutos_log.ldf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\BDAutos.mdf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\BDAutos_log.ldf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

@@ -1,0 +1,501 @@
+USE [BDAutos]
+GO
+/****** Object:  Table [dbo].[Autos]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Autos](
+	[IdAutos] [int] IDENTITY(1,1) NOT NULL,
+	[Matricula] [varchar](10) NOT NULL,
+	[Nombre] [varchar](25) NOT NULL,
+	[Cuota] [decimal](10, 2) NOT NULL,
+	[IdOwner] [int] NOT NULL,
+	[Disponibilidad] [bit] NOT NULL,
+	[UrlFoto] [varchar](max) NOT NULL,
+ CONSTRAINT [PK_Autos] PRIMARY KEY CLUSTERED 
+(
+	[IdAutos] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Personas]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Personas](
+	[IdPersona] [int] IDENTITY(1,1) NOT NULL,
+	[Telefono] [nvarchar](20) NOT NULL,
+	[Direccion] [varchar](100) NOT NULL,
+	[Nombre] [varchar](50) NOT NULL,
+	[Correo] [varchar](100) NOT NULL,
+	[Puesto] [int] NOT NULL,
+	[Disponibilidad] [bit] NOT NULL,
+	[UrlFoto] [varchar](max) NOT NULL,
+ CONSTRAINT [PK_Personas] PRIMARY KEY CLUSTERED 
+(
+	[IdPersona] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Renta]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Renta](
+	[IdRenta] [int] IDENTITY(1,1) NOT NULL,
+	[FechaHoraRenta] [datetime] NOT NULL,
+	[Destino] [varchar](max) NOT NULL,
+	[Estado] [varchar](25) NOT NULL,
+	[IdAutos] [int] NULL,
+	[IdPersona] [int] NULL,
+ CONSTRAINT [PK_Renta] PRIMARY KEY CLUSTERED 
+(
+	[IdRenta] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Autos]  WITH CHECK ADD  CONSTRAINT [FK_Autos_Personas] FOREIGN KEY([IdOwner])
+REFERENCES [dbo].[Personas] ([IdPersona])
+GO
+ALTER TABLE [dbo].[Autos] CHECK CONSTRAINT [FK_Autos_Personas]
+GO
+ALTER TABLE [dbo].[Renta]  WITH CHECK ADD  CONSTRAINT [FK_Renta_Autos] FOREIGN KEY([IdAutos])
+REFERENCES [dbo].[Autos] ([IdAutos])
+GO
+ALTER TABLE [dbo].[Renta] CHECK CONSTRAINT [FK_Renta_Autos]
+GO
+ALTER TABLE [dbo].[Renta]  WITH CHECK ADD  CONSTRAINT [FK_Renta_Personas] FOREIGN KEY([IdPersona])
+REFERENCES [dbo].[Personas] ([IdPersona])
+GO
+ALTER TABLE [dbo].[Renta] CHECK CONSTRAINT [FK_Renta_Personas]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ActualizarAuto]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ActualizarAuto]
+	@IdAutos int,
+	@Matricula varchar (10)=NULL,
+	@Nombre varchar(25)=NULL,
+	@Cuota decimal(10,2)=NULL,
+	@IdOwner int=NULL,
+	@UrlFoto varchar(max)=NULL,
+	@Disponibilidad bit=NULL
+AS
+	UPDATE Autos
+	SET
+	Matricula=ISNULL(@Matricula,Matricula),
+	Nombre=ISNULL(@Nombre,Nombre),
+	Cuota=ISNULL(@Cuota,Cuota),
+	IdOwner=ISNULL(@IdOwner,IdOwner),
+	UrlFoto=ISNULL(@UrlFoto,UrlFoto),
+	Disponibilidad=ISNULL(@Disponibilidad,Disponibilidad)
+	WHERE IdAutos=@IdAutos
+RETURN 0
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ActualizarPersona]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ActualizarPersona]
+@IdPersona int,
+@Nombre varchar(50)=null,
+@Direccion varchar(100)=null,
+@Telefono varchar(20)=null,
+@Correo varchar(100)=null,
+@Puesto int=null,
+@UrlFoto varchar(max)=null,
+@Disponibilidad bit=null
+
+AS
+BEGIN
+	UPDATE Personas
+	SET
+	Nombre=ISNULL(@Nombre,Nombre),
+	Direccion=ISNULL(@Direccion,Direccion),
+	Telefono=ISNULL(@Telefono,Telefono),
+	Correo=ISNULL(@Correo,Correo),
+	Puesto=ISNULL(@Puesto,Puesto),
+	UrlFoto=ISNULL(@UrlFoto,UrlFoto),
+	Disponibilidad=ISNULL(@Disponibilidad,Disponibilidad)
+	WHERE IdPersona=@IdPersona
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarAuto]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarAuto]
+	@IdAutos int
+AS
+	SELECT * FROM Autos WHERE IdAutos=@IdAutos
+RETURN 0
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarAutoPorId]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarAutoPorId]
+@IdAutos int
+
+AS
+
+BEGIN
+	SELECT * FROM Autos
+	WHERE IdAutos = @IdAutos
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarAutos]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarAutos]
+	@Disponibilidad bit = null
+AS
+	IF(@Disponibilidad is NULL)
+	  BEGIN
+	    SELECT * FROM Autos
+	  END
+	ELSE
+	  BEGIN
+	    SELECT * FROM Autos WHERE Disponibilidad=@Disponibilidad
+	  END
+RETURN 0
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarAutosPorOwner]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarAutosPorOwner]
+@IdOwner int,
+@Disponibilidad bit=null
+
+AS
+
+BEGIN
+	IF(@Disponibilidad is null)
+	BEGIN
+		SELECT * FROM Autos
+		WHERE IdOwner=@IdOwner
+	END
+	ELSE
+	BEGIN
+		SELECT * FROM Autos
+		WHERE IdOwner=@IdOwner AND Disponibilidad=@Disponibilidad
+	END
+	SELECT * FROM Autos
+	WHERE IdOwner=@IdOwner
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarPersonaPorId]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarPersonaPorId]
+@IdPersona int
+
+AS
+
+BEGIN
+	SELECT * FROM PERSONAS
+	WHERE IdPersona=@IdPersona
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarPersonas]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarPersonas]
+@Disponibilidad bit=null
+AS
+
+BEGIN
+IF(@Disponibilidad is null)
+		BEGIN
+			SELECT * FROM PERSONAS
+		END
+	ELSE
+		BEGIN
+			SELECT * FROM PERSONAS
+			WHERE Disponibilidad=@Disponibilidad
+		END
+END
+	
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarPersonasPorPuesto]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarPersonasPorPuesto]
+@Puesto int,
+@Disponibilidad bit=null
+
+AS
+
+BEGIN
+	IF(@Disponibilidad is Null)
+		BEGIN
+			SELECT * FROM PERSONAS
+			WHERE Puesto=@Puesto
+		END
+	ELSE
+		BEGIN
+			SELECT * FROM PERSONAS
+			WHERE Puesto=@Puesto AND Disponibilidad=@Disponibilidad
+		END
+	SELECT * FROM PERSONAS
+	WHERE Puesto=@Puesto
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarRentasPorEstado]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarRentasPorEstado]
+@Estado varchar(25)
+
+AS
+
+BEGIN
+	SELECT * FROM Renta
+	WHERE Estado=@Estado
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarRentasPorEstadoExtendida]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarRentasPorEstadoExtendida]
+@Estado varchar(25)
+
+AS
+
+BEGIN
+	SELECT R.IdRenta,R.FechaHoraRenta,R.Destino,R.Estado,R.IdAutos,R.IdPersona,
+	A.Nombre as NombreAuto,A.UrlFoto as UrlFotoAuto,
+	P.Nombre as NombreArrendatario, P.UrlFoto as UrlFotoArrendatario
+	 FROM Renta R
+
+	INNER JOIN Autos A ON R.IdAutos=A.IdAutos
+	INNER JOIN Personas P ON R.IdPersona=P.IdPersona
+	WHERE Estado=@Estado
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarRentasPorId]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarRentasPorId]
+@IdRenta int
+
+AS
+
+BEGIN
+	SELECT * FROM Renta
+	WHERE IdRenta=@IdRenta
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ConsultarRentasPorIdExtendida]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_ConsultarRentasPorIdExtendida]
+@IdRenta int
+
+AS
+
+BEGIN
+	SELECT R.IdRenta,R.FechaHoraRenta,R.Destino,R.Estado,R.IdAutos,R.IdPersona,
+	A.Nombre as NombreAuto,A.UrlFoto as UrlFotoAuto,
+	P.Nombre as NombreArrendatario, P.UrlFoto as UrlFotoArrendatario
+	 FROM Renta R
+
+	INNER JOIN Autos A ON R.IdAutos=A.IdAutos
+	INNER JOIN Personas P ON R.IdPersona=P.IdPersona
+	WHERE IdRenta=@IdRenta
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_EliminarAuto]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_EliminarAuto]
+	@IdAutos int
+AS
+	DELETE Autos WHERE IdAutos=@IdAutos
+RETURN 0
+GO
+/****** Object:  StoredProcedure [dbo].[SP_EliminarPersona]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_EliminarPersona]
+@IdPersona int
+
+AS
+
+BEGIN
+	DELETE Personas
+	WHERE IdPersona=@IdPersona
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_FinalizarRenta]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_FinalizarRenta]
+@IdRenta int,
+@Estado varchar(25)
+
+AS
+
+BEGIN
+DECLARE @IdAuto int
+DECLARE @IdArrendatario int
+	SELECT @IdAuto=IdAutos, @IdArrendatario=IdPersona FROM Renta
+	WHERE IdRenta=@IdRenta
+
+	UPDATE Renta
+	SET
+	Estado=@Estado
+	WHERE IdRenta=@IdRenta
+	UPDATE Personas
+	SET
+	Disponibilidad=1
+	WHERE IdPersona=@IdArrendatario
+	
+	UPDATE Autos
+	SET
+	Disponibilidad=1
+	WHERE IdAutos=@IdAuto
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_InsertarAuto]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_InsertarAuto] 
+    @Matricula varchar(10),
+	@Nombre varchar (25),
+	@Cuota decimal (10,2),
+	@IdOwner int,
+	@UrlFoto varchar(max)	
+AS
+	INSERT INTO Autos(Matricula,Nombre,Cuota,IdOwner,UrlFoto,Disponibilidad) 
+	VALUES (@Matricula,@Nombre,@Cuota,@IdOwner,@UrlFoto,1)
+RETURN 0
+GO
+/****** Object:  StoredProcedure [dbo].[SP_InsertarPersona]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_InsertarPersona]
+@Nombre varchar(50),
+@Direccion varchar(100),
+@Telefono varchar(20),
+@Correo varchar(100),
+@Puesto int,
+@UrlFoto varchar(max)
+
+AS
+BEGIN
+INSERT INTO Personas(Nombre,Direccion,Telefono,Correo,Puesto,UrlFoto,Disponibilidad)
+VALUES (@Nombre,@Direccion,@Telefono,@Correo,@Puesto,@UrlFoto,1)
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_InsertarRenta]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_InsertarRenta]
+@FechaHoraRenta DateTime,
+@Destino varchar(max),
+@Estado varchar(25),
+@IdAutos int,
+@IdArrendatario int
+
+AS
+
+BEGIN
+	INSERT INTO Renta(FechaHoraRenta,Destino,Estado,IdAutos,IdPersona)
+	VALUES(@FechaHoraRenta,@Destino,@Estado,@IdAutos,@IdArrendatario)
+END
+GO
+/****** Object:  StoredProcedure [dbo].[WS_ConsultarAutosPorOwner]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[WS_ConsultarAutosPorOwner]
+@IdOwner int
+
+AS
+
+BEGIN
+	SELECT A.Matricula,A.Nombre,A.UrlFoto,
+	P.Nombre as NombreOwner
+	FROM Autos A INNER JOIN Personas P ON A.IdOwner=P.IdPersona
+	WHERE IdOwner=@IdOwner
+END
+GO
+/****** Object:  StoredProcedure [dbo].[WS_ConsultarNoAutosPorOwner]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[WS_ConsultarNoAutosPorOwner]
+
+AS
+
+BEGIN
+	SELECT COUNT(A.IdAutos) AS NoAutos ,
+	P.Nombre
+	FROM Autos A INNER JOIN Personas P ON A.IdOwner=P.IdPersona
+	GROUP BY A.IdAutos,P.Nombre
+END
+GO
+/****** Object:  StoredProcedure [dbo].[WS_ConsultarRentasMes]    Script Date: 26/12/2020 10:20:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[WS_ConsultarRentasMes]
+@Mes Date,
+@Num int
+
+AS
+
+BEGIN
+	SELECT TOP(@Num) count(R.IdAutos) as NoSalidas, A.Nombre as NombreAuto,
+	P.Nombre as NombreOwner
+	FROM Autos A 
+	INNER JOIN Renta R ON R.IdAutos=A.IdAutos
+	INNER JOIN Personas P On A.IdOwner=P.IdPersona
+	WHERE MONTH(FechaHoraRenta)=MONTH(@Mes) AND YEAR(FechaHoraRenta)=YEAR(GETDATE())
+	GROUP BY R.IdAutos, A.Nombre, P.Nombre
+	ORDER BY NoSalidas DESC
+END
+GO

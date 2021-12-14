@@ -1,0 +1,11 @@
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\bin\Debug\BDAutos.mdf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\bin\Debug\BDAutos_log.ldf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\bin\Debug\Entidades.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\AccesoDatos\obj\Debug\AccesoDatos.pdb

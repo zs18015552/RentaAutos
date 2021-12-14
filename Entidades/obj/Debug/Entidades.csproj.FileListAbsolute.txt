@@ -1,0 +1,23 @@
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Entidades\bin\Debug\Entidades.dll
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Entidades\bin\Debug\Entidades.pdb
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.dll
+c:\users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Entidades\bin\Debug\Entidades.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Entidades\bin\Debug\Entidades.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Entidades\bin\Debug\Entidades.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\bin\Debug\Entidades.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache

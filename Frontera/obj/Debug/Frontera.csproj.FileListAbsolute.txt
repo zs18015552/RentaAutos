@@ -1,0 +1,406 @@
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\ApplicationInsights.config
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\csc.exe
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\vbc.exe
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\VBCSCompiler.exe
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Frontera.dll.config
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Frontera.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Frontera.pdb
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Antlr3.Runtime.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.SqlServer.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Web.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Newtonsoft.Json.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Owin.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\System.Web.Optimization.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\System.Web.Providers.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\WebGrease.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Web.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\System.Web.Optimization.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Antlr3.Runtime.pdb
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Newtonsoft.Json.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.SqlServer.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\System.Web.Providers.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\System.Web.Optimization.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\EntityFramework.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csprojResolveAssemblyReference.cache
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.pdb
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Entidades.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\LogicaNegocio.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\AccesoDatos.dll
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\Entidades.pdb
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\LogicaNegocio.pdb
+C:\Users\sergi\onedrive\documentos\visual studio 2015\Projects\ProyectoRentaDeAutos\Frontera\bin\AccesoDatos.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\ApplicationInsights.config
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\csc.exe
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\vbc.exe
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\VBCSCompiler.exe
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Frontera.dll.config
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Frontera.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Frontera.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\AccesoDatos.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Antlr3.Runtime.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Entidades.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.SqlServer.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\LogicaNegocio.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Web.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Newtonsoft.Json.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Owin.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Optimization.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Providers.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\WebGrease.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\AccesoDatos.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Entidades.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\LogicaNegocio.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Web.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Optimization.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Antlr3.Runtime.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Newtonsoft.Json.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.SqlServer.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Providers.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\System.Web.Optimization.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\EntityFramework.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.dll
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.pdb
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\Proyecto autos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csproj.CopyComplete
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\ApplicationInsights.config
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\csc.exe
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\System.Collections.Immutable.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\System.Reflection.Metadata.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\vbc.exe
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\VBCSCompiler.exe
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\roslyn\VBCSCompiler.exe.config
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Frontera.dll.config
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Frontera.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Frontera.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\AccesoDatos.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Antlr3.Runtime.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\AspNet.ScriptManager.jQuery.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Entidades.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.SqlServer.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\LogicaNegocio.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.DependencyCollector.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Web.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.WindowsServer.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ApplicationInsights.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Google.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Web.Infrastructure.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Newtonsoft.Json.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Owin.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Optimization.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Providers.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\WebGrease.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\AccesoDatos.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Entidades.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\LogicaNegocio.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.DependencyCollector.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.Web.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AI.WindowsServer.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.ApplicationInsights.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Optimization.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Antlr3.Runtime.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Newtonsoft.Json.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\EntityFramework.SqlServer.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\System.Web.Providers.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Google.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\System.Web.Optimization.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\EntityFramework.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csproj.AssemblyReference.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csproj.CoreCompileInputs.cache
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.csproj.CopyComplete
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.dll
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\obj\Debug\Frontera.pdb
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\BDAutos.mdf
+D:\Alex\Documentos\Proyectos\ProyectoAutos\ProyectoRentaDeAutos\Frontera\bin\BDAutos_log.ldf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\obj\Debug\Frontera.csproj.AssemblyReference.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\obj\Debug\Frontera.csproj.CoreCompileInputs.cache
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\obj\Debug\Frontera.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\obj\Debug\Frontera.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\ApplicationInsights.config
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\csc.exe
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\vbc.exe
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\VBCSCompiler.exe
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\BDAutos.mdf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\BDAutos_log.ldf
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Frontera.dll.config
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Frontera.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Frontera.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\AccesoDatos.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Antlr3.Runtime.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Entidades.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\EntityFramework.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\EntityFramework.SqlServer.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\LogicaNegocio.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.Web.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Newtonsoft.Json.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Owin.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\System.Web.Optimization.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\System.Web.Providers.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\WebGrease.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\AccesoDatos.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Entidades.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\LogicaNegocio.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.Web.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\System.Web.Optimization.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Antlr3.Runtime.pdb
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Newtonsoft.Json.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\EntityFramework.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\EntityFramework.SqlServer.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\System.Web.Providers.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\System.Web.Optimization.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\EntityFramework.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\lrtmo\Documents\GitHub\RentaAutos\Frontera\obj\Debug\Frontera.csproj.CopyComplete
