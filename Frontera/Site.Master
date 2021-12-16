@@ -55,22 +55,22 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li class="dropdown"> <a href="#" class="dropdowm-toggle" data-toggle="dropdown" 
-                            role="button" aria-haspopup="true" aria-expanded="false">Carros - Personas<span class="caret"></span></a>
+                            role="button" aria-haspopup="true" aria-expanded="false">Carros - Clientes<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="~/Catalogo/Personas/AltaPersonas" runat="server">Alta Persona</a></li>
-                                <li><a href="~/Catalogo/Autos/AltaAuto" runat="server">Alta utos</a></li>
+                                <li><a href="~/Catalogo/Autos/AltaAuto" runat="server">Alta Auto</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="~/Catalogo/Personas/ListaPersonas" runat="server">Lista personas</a></li>
-                                <li><a href="~/Catalogo/Autos/ListaAutos" runat="server">Lista autos</a></li>
+                                <li><a href="~/Catalogo/Personas/ListaPersonas" runat="server">Lista Clientes</a></li>
+                                <li><a href="~/Catalogo/Autos/ListaAutos" runat="server">Lista Autos</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"> <a href="#" class="dropdowm-toggle" data-toggle="dropdown" 
                             role="button" aria-haspopup="true" aria-expanded="false">Rentas<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="~/Rentas/AltaRentas" runat="server">Alta rentas</a></li>
-                                <li><a href="~/Rentas/RentasProceso" runat="server">Rentas en proceso</a></li>
+                                <li><a href="~/Rentas/AltaRentas" runat="server">Alta Rentas</a></li>
+                                <li><a href="~/Rentas/RentasProceso" runat="server">Rentas en Proceso</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="~/Rentas/RentasFinalizadas" runat="server">Rentas Finalizadas</a></li>
+                                <li><a href="~/Rentas/RentasFinalizadas" runat="server">Autos Liberados</a></li>
                             </ul>
                         </li>
                         <li><a runat="server" href="~/About">Acerca de</a></li>
