@@ -40,14 +40,6 @@
                 </div>
             </div>
         </div>
-        <div class="row form-group">
-            
-                <label for="<%=ddlPuesto.ClientID %>">Puesto:</label>
-                <asp:DropDownList ID="ddlPuesto" runat="server" CssClass="form-control" style="width:25%">
-                    <asp:ListItem Value="0" Text="Selecciona Puesto"></asp:ListItem>
-                </asp:DropDownList>
-                <asp:RequiredFieldValidator ID="rfvddlPuesto" ValidationGroup="Guardar" runat="server" CssClass="text-danger" ControlToValidate="ddlPuesto" InitialValue="0" ErrorMessage="Selecciona el puesto de la persona"></asp:RequiredFieldValidator>
-            </div>
         <div class="row form-inline">
             <div class="colo-md-12">
                 <label>Selecciona Foto:</label>

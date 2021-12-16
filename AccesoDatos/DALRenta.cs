@@ -87,14 +87,14 @@ namespace AccesoDatos
             try
             {
                 List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@IdSalida", SqlDbType.Int, idRenta));
+                parametros.Add(new Parametro("@IdRenta", SqlDbType.Int, idRenta));
                 Dictionary<string, object> datos = Consulta.EjecutarLectura("SP_ConsultarRentasPorId", parametros);
-                DateTime fechaHoraSalida = (DateTime)datos["FechaHoraSalida"];
+                DateTime fechaHoraRenta = (DateTime)datos["FechaHoraRenta"];
                 string destino = (string)datos["Destino"];
                 string estado = (string)datos["Estado"];
                 int idAutos = int.Parse(datos["IdAutos"].ToString());
                 int idArrendatario = int.Parse(datos["IdPersona"].ToString());
-                renta = new VORenta(idRenta, fechaHoraSalida, destino, estado, idAutos, idArrendatario);
+                renta = new VORenta(idRenta, fechaHoraRenta, destino, estado, idAutos, idArrendatario);
             }
             catch (Exception)
             {
@@ -116,12 +116,12 @@ namespace AccesoDatos
                 string estado = (string)datos["Estado"];
                 int idBarco = int.Parse(datos["IdBarco"].ToString());
                 int idArrendatario = int.Parse(datos["IdPersona"].ToString());
-                string nombreBarco = (string)datos["NombreBarco"];
-                string urlFotoBarco = (string)datos["UrlFotoBarco"];
-                string nombreCapitan = (string)datos["NombreCapitan"];
-                string urlFotoCapitan = (string)datos["UrlFotoCapitan"];
+                string nombreAuto = (string)datos["NombreAuto"];
+                string urlFotoAuto = (string)datos["UrlFotoAuto"];
+                string nombreArrendatario = (string)datos["NombreArrendatario"];
+                string urlFotoArrendatario = (string)datos["UrlFotoArrendatario"];
                 renta = new VORentaExtendida(idRenta, fechaHoraSalida, destino, estado, idBarco, idArrendatario,
-                    nombreBarco, urlFotoBarco, nombreCapitan, urlFotoCapitan);
+                    nombreAuto, urlFotoAuto, nombreArrendatario, urlFotoArrendatario);
             }
             catch (Exception)
             {

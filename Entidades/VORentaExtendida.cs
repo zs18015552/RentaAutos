@@ -40,10 +40,10 @@ namespace Entidades
 
         public VORentaExtendida(int idRenta, DateTime fechaHoraRenta, string destino, string estado, int idAutos, int idArrendatario, string nombreBarco, string urlFotoBarco, string nombreCapitan, string urlFotoCapitan) : base(idRenta, fechaHoraRenta, destino, estado, idAutos, idArrendatario)
         {
-            NombreBarco = nombreBarco;
-            UrlFotoBarco = urlFotoBarco;
-            NombreCapitan = nombreCapitan;
-            UrlFotoCapitan = urlFotoCapitan;
+            NombreAuto = nombreBarco;
+            UrlFotoAuto = urlFotoBarco;
+            NombreArrendatario = nombreCapitan;
+            UrlFotoArrendatario = urlFotoCapitan;
         }
 
         public string NombreArrendatario
@@ -97,10 +97,5 @@ namespace Entidades
                 urlFotoAuto = value;
             }
         }
-
-        public string NombreBarco { get; }
-        public string UrlFotoBarco { get; }
-        public string NombreCapitan { get; }
-        public string UrlFotoCapitan { get; }
     }
 }

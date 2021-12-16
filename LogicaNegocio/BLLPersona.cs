@@ -43,18 +43,7 @@ namespace LogicaNegocio
                 throw new ArgumentException("No se pudo actualizar el dato");
             }
         }
-        public static List<VOPersona> ConsultarPersonasPorCargo(string cargo, bool? disponibilidad)
-        {
-            try
-            {
-                int idCargo = int.Parse(cargo);
-                return DALPersona.ConsultarPersonasPorPuesto(idCargo, disponibilidad);
-            }
-            catch (Exception ex)
-            {
-                throw new ArgumentException("Error al consultar el registro de persona");
-            }
-        }
+
         public static VOPersona ConsultarPersonaPorId(string idPersona)
         {
             try
@@ -65,15 +54,6 @@ namespace LogicaNegocio
             {
                 throw new ArgumentException("Error al consultar el registro de persona");
             }
-        }
-        public static List<VOPersona> CatalogoPersona(int[] cargo, bool? disp)
-        {
-            List<VOPersona> catalogo = new List<VOPersona>();
-            foreach (int c in cargo)
-            {
-                catalogo.AddRange(BLLPersona.ConsultarPersonasPorCargo(c.ToString(), disp));
-            }
-            return catalogo;
         }
         public static List<VOPersona> ConsultarPersonas(bool? disponibilidad)
         {

@@ -17,10 +17,7 @@ namespace Frontera.Catalogo.Personas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                Enumeradores.EnumToListBox(typeof(PuestoPersona), ddlPuesto, true);
-            }
+         
         }
 
         protected void btnSubeImagen_Click(object sender, EventArgs e)
@@ -53,7 +50,7 @@ namespace Frontera.Catalogo.Personas
         {
             try
             {
-                VOPersona persona = new VOPersona(txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, int.Parse(ddlPuesto.SelectedValue), null, lblUrlFoto.InnerText);
+                VOPersona persona = new VOPersona(txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, null, lblUrlFoto.InnerText);
                 BLLPersona.Insertar(persona);
                 LimpiarFormulario();
                 Response.Redirect("ListaPersonas.aspx");
@@ -69,7 +66,6 @@ namespace Frontera.Catalogo.Personas
             txtDireccion.Text = "";
             txtTelefono.Text = "";
             txtCorreo.Text = "";
-            ddlPuesto.SelectedIndex = 0;
             lblUrlFoto.InnerText = "";
             imgFotoPersona.ImageUrl = "";
             btnGuardar.Visible = false;

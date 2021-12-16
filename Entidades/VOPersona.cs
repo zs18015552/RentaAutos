@@ -14,28 +14,25 @@ namespace Entidades
         private string direccion;
         private string nombre;
         private string correo;
-        private int? puesto;
         private bool? disponibilidad;
         private string urlFoto;
 
-        public VOPersona(int persona, string telefono, string direccion, string nombre, string correo, int? puesto, bool? disponibilidad, string urlFoto)
+        public VOPersona(int persona, string telefono, string direccion, string nombre, string correo, bool? disponibilidad, string urlFoto)
         {
             this.IdPersona = persona;
             this.Telefono = telefono;
             this.Direccion = direccion;
             this.Nombre = nombre;
             this.Correo = correo;
-            this.Puesto = puesto;
             this.Disponibilidad = disponibilidad;
             this.UrlFoto = urlFoto;
         }
-        public VOPersona(string telefono, string direccion, string nombre, string correo, int? puesto, bool? disponibilidad, string urlFoto)
+        public VOPersona(string telefono, string direccion, string nombre, string correo, bool? disponibilidad, string urlFoto)
         {
             this.Telefono = telefono;
             this.Direccion = direccion;
             this.Nombre = nombre;
             this.Correo = correo;
-            this.Puesto = puesto;
             this.Disponibilidad = disponibilidad;
             this.UrlFoto = urlFoto;
         }
@@ -46,7 +43,6 @@ namespace Entidades
             Direccion = fila["Direccion"].ToString();
             Telefono = fila["Telefono"].ToString();
             Correo = fila["Correo"].ToString();
-            Puesto = int.Parse(fila["Puesto"].ToString());
             UrlFoto = fila["UrlFoto"].ToString();
             Disponibilidad = bool.Parse(fila["Disponibilidad"].ToString());
         }
@@ -116,18 +112,6 @@ namespace Entidades
             }
         }
 
-        public int? Puesto
-        {
-            get
-            {
-                return puesto;
-            }
-
-            set
-            {
-                puesto = value;
-            }
-        }
 
         public bool? Disponibilidad
         {

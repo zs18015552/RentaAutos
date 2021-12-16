@@ -18,8 +18,6 @@ namespace Frontera.Catalogo.Personas
         {
             if (!IsPostBack)
             {
-                Enumeradores.EnumToListBox(typeof(PuestoPersona), ddlPuesto, true);
-
                 if (Request.QueryString["id"] == null)
                     Response.Redirect("ListaPersonas.aspx");
                 else
@@ -45,7 +43,7 @@ namespace Frontera.Catalogo.Personas
         {
             try
             {
-                VOPersona persona = new VOPersona(int.Parse(lblIdPersona.Text), txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, int.Parse(ddlPuesto.SelectedValue), null, lblUrlFoto.InnerText);
+                VOPersona persona = new VOPersona(int.Parse(lblIdPersona.Text), txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, null, lblUrlFoto.InnerText);
                 BLLPersona.Actualizar(persona);
                 LimpiarFormulario();
                 Response.Redirect("ListaPersonas.aspx", false);
@@ -87,7 +85,6 @@ namespace Frontera.Catalogo.Personas
             txtDireccion.Text = "";
             txtTelefono.Text = "";
             txtCorreo.Text = "";
-            ddlPuesto.SelectedIndex = 0;
             lblUrlFoto.InnerText = "";
             imgFotoPersona.ImageUrl = "";
         }
@@ -98,7 +95,6 @@ namespace Frontera.Catalogo.Personas
             txtDireccion.Text = persona.Direccion;
             txtTelefono.Text = persona.Telefono;
             txtCorreo.Text = persona.Correo;
-            ddlPuesto.SelectedIndex = (int)persona.Puesto;
             lblUrlFoto.InnerText = persona.UrlFoto;
             imgFotoPersona.ImageUrl = persona.UrlFoto;
         }

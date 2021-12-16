@@ -34,13 +34,6 @@
                 </div>
             </div>
         </div>
-        <div class="row form-group">
-            <label for="<%=ddlOwner.ClientID %>">Dueño:</label>
-            <asp:DropDownList ID="ddlOwner" runat="server" CssClass="form-control" style="width:25%">
-                <asp:ListItem Value="0" Text="Selecciona dueño"></asp:ListItem>
-            </asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvddlCargo" ValidationGroup="Guardar" runat="server" CssClass="text-danger" ControlToValidate="ddlOwner" InitialValue="0" ErrorMessage="Selecciona el dueño del barco"></asp:RequiredFieldValidator>
-        </div>
         <div class="row form-inline">
             <div class="colo-md-12">
                 <label>Selecciona Foto:</label>

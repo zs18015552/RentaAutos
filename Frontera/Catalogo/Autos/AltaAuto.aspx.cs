@@ -14,10 +14,7 @@ namespace Frontera.Catalogo.Autos
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                CatalogoOwners(ddlOwner);
-            }
+            
         }
 
         protected void btnSubeImagen_Click(object sender, EventArgs e)
@@ -40,7 +37,7 @@ namespace Frontera.Catalogo.Autos
                     SubeImagen.PostedFile.SaveAs(path + fileName);
                     string url = "/Imagenes/Autos/" + fileName;
                     lblUrlFoto.InnerText = url;
-                    imgFotoPersona.ImageUrl = url;
+                    imgFotoAuto.ImageUrl = url;
                     btnGuardar.Visible = true;
                 }
             }
@@ -51,7 +48,7 @@ namespace Frontera.Catalogo.Autos
             try
             {
                 VOAuto barco = new VOAuto(txtMatricula.Text, txtNombre.Text,
-                    Convert.ToDouble(txtCuota.Text), Convert.ToInt32(ddlOwner.SelectedValue),
+                    Convert.ToDouble(txtCuota.Text),
                     lblUrlFoto.InnerText, true);
                 BLLAuto.Insertar(barco);
                 LimpiarFormulario();
@@ -63,23 +60,14 @@ namespace Frontera.Catalogo.Autos
                     "alert('Se registro un error al realizar la operacion." + ex.Message + "');", true);
             }
         }
-        public void CatalogoOwners(DropDownList ddl)
-        {
-            int[] puesto = { 1 };
-            List<VOPersona> owners = BLLPersona.CatalogoPersona(puesto, true);
-            foreach (VOPersona persona in owners)
-            {
-                ddl.Items.Add(new ListItem(persona.Nombre, persona.IdPersona.ToString()));
-            }
-        }
+        
         public void LimpiarFormulario()
         {
             txtMatricula.Text = "";
             txtNombre.Text = "";
             txtCuota.Text = "";
-            ddlOwner.SelectedIndex = 0;
             lblUrlFoto.InnerText = "";
-            imgFotoPersona.ImageUrl = "";
+            imgFotoAuto.ImageUrl = "";
             btnGuardar.Visible = false;
         }
     }

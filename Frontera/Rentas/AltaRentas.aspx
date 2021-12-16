@@ -30,14 +30,6 @@
         </div>
 
         <div class="row form-group">
-            <label for="<%=ddlOwner.ClientID %>">Dueño:</label>
-            <asp:DropDownList ID="ddlOwner" runat="server" CssClass="form-control" style="width:25%" OnSelectedIndexChanged="ddlOwner_SelectedIndexChanged" AutoPostBack="true">
-                <asp:ListItem Value="0" Text="Selecciona dueño"></asp:ListItem>
-            </asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvddlPuesto" ValidationGroup="Guardar" runat="server" CssClass="text-danger" ControlToValidate="ddlOwner" InitialValue="0" ErrorMessage="Selecciona el dueño del auto"></asp:RequiredFieldValidator>
-        </div>
-
-        <div class="row form-group">
             <label for="<%=ddlAuto.ClientID %>">Auto:</label>
             <asp:DropDownList ID="ddlAuto" runat="server" CssClass="form-control" style="width:25%">
                 <asp:ListItem Value="0" Text="Selecciona Auto"></asp:ListItem>

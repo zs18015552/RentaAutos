@@ -18,15 +18,9 @@ namespace Frontera.Rentas
         {
             if (!IsPostBack)
             {
-                CatalogoOwners(ddlArrendatario, new int[] { 2, 3 });
-                CatalogoOwners(ddlOwner, new int[] { 1, 3 });
+                CatalogoPersonas(ddlArrendatario);
+                CatalogoAutos();
             }
-        }
-
-        protected void ddlOwner_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string id = ddlOwner.SelectedValue;
-            CatalogoAutos(id);
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)
@@ -46,18 +40,18 @@ namespace Frontera.Rentas
                     "alert('Se registro un error al realizar la operacion." + ex.Message + "');", true);
             }
         }
-        public void CatalogoOwners(DropDownList ddl, int[] cargo)
+        public void CatalogoPersonas(DropDownList ddl)
         {
-            List<VOPersona> owner = BLLPersona.CatalogoPersona(cargo, true);
-            foreach (VOPersona persona in owner)
+            List<VOPersona> personas = BLLPersona.ConsultarPersonas(true);
+            foreach (VOPersona persona in personas)
             {
                 ddl.Items.Add(new ListItem(persona.Nombre, persona.IdPersona.ToString()));
             }
         }
-        public void CatalogoAutos(string idOwner)
+        public void CatalogoAutos()
         {
             ddlAuto.Items.Clear();
-            List<VOAuto> autos = BLLAuto.ConsultarAutosPorOwner(idOwner, true);
+            List<VOAuto> autos = BLLAuto.ConsultarAutos(true);
             foreach (VOAuto auto in autos)
             {
                 ddlAuto.Items.Add(new ListItem(auto.Matricula, auto.IdAuto.ToString()));
@@ -68,7 +62,6 @@ namespace Frontera.Rentas
             txtDestino.Text = "";
             FechaHoraRenta.Value = "";
             ddlArrendatario.SelectedIndex = 0;
-            ddlOwner.SelectedIndex = 0;
             ddlAuto.SelectedIndex = 0;
         }
     }

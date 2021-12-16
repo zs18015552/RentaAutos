@@ -16,7 +16,6 @@ namespace Frontera.Catalogo.Autos
         {
             if (!IsPostBack)
             {
-                CatalogoOwners(ddlOwner);
                 if (Request.QueryString["Id"] == null)
                     Response.Redirect("ListaAutos.aspx");
                 else
@@ -71,8 +70,7 @@ namespace Frontera.Catalogo.Autos
             try
             {
                 VOAuto auto = new VOAuto(int.Parse(lblAuto.Text), txtMatricula.Text,
-                    txtNombre.Text, double.Parse(txtCuota.Text), int.Parse(ddlOwner.SelectedValue),
-                    lblUrlFoto.InnerText, null);
+                    txtNombre.Text, double.Parse(txtCuota.Text), lblUrlFoto.InnerText, null);
                 BLLAuto.Actualizar(auto);
                 LimpiarFormulario();
                 Response.Redirect("ListaAutos.aspx");
@@ -98,22 +96,13 @@ namespace Frontera.Catalogo.Autos
                     "alert('Se registro un error al realizar la operacion." + ex.Message + "');", true);
             }
         }
-        public void CatalogoOwners(DropDownList ddl)
-        {
-            int[] puesto = { 1 };
-            List<VOPersona> owners = BLLPersona.CatalogoPersona(puesto, true);
-            foreach (VOPersona persona in owners)
-            {
-                ddl.Items.Add(new ListItem(persona.Nombre, persona.IdPersona.ToString()));
-            }
-        }
+
         public void LimpiarFormulario()
         {
             lblAuto.Text = "";
             txtMatricula.Text = "";
             txtNombre.Text = "";
             txtCuota.Text = "";
-            ddlOwner.SelectedIndex = 0;
             lblUrlFoto.InnerText = "";
             imgFotoPersona.ImageUrl = "";
         }
@@ -123,7 +112,6 @@ namespace Frontera.Catalogo.Autos
             txtMatricula.Text = auto.Matricula;
             txtNombre.Text = auto.Nombre;
             txtCuota.Text = auto.Cuota.ToString();
-            ddlOwner.SelectedValue = auto.IdPersona.ToString();
             lblUrlFoto.InnerText = auto.UrlFoto;
             imgFotoPersona.ImageUrl = auto.UrlFoto;
         }

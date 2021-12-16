@@ -24,7 +24,6 @@ namespace Frontera.Catalogo.Personas
                     string idPersona = Request.QueryString["id"].ToString();
                     VOPersona persona = BLLPersona.ConsultarPersonaPorId(idPersona);
                     CargarFormulario(persona);
-                    CargarGrid(idPersona);
                     disponibilidad = (bool)persona.Disponibilidad;
                     if (disponibilidad)
                     {
@@ -50,11 +49,7 @@ namespace Frontera.Catalogo.Personas
             BLLPersona.Eliminar(lblIdPersona.Text);
             Response.Redirect("ListaPersonas.aspx");
         }
-        public void CargarGrid(string owner)
-        {
-            gvAutos.DataSource = BLLAuto.ConsultarAutosPorOwner(owner, true);
-            gvAutos.DataBind();
-        }
+
         public void CargarFormulario(VOPersona persona)
         {
             lblIdPersona.Text = persona.IdPersona.ToString();
@@ -62,7 +57,6 @@ namespace Frontera.Catalogo.Personas
             lblDireccion.Text = persona.Direccion;
             lblTelefono.Text = persona.Telefono;
             lblCorreo.Text = persona.Correo;
-            lblPuesto.Text = Enum.GetName(typeof(PuestoPersona), (int)persona.Puesto);
             chkPersonaDisponible.Checked = (bool)persona.Disponibilidad;
             imgFotoPersona.ImageUrl = persona.UrlFoto;
         }

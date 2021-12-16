@@ -23,8 +23,6 @@
                         DataField="Nombre" />
                     <asp:BoundField HeaderText="Matricula" ItemStyle-Width="80px"
                         DataField="Matricula" />
-                    <asp:BoundField HeaderText="Dueño" ItemStyle-Width="80px"
-                        DataField="IdPersona" />
                     <asp:TemplateField HeaderText="Disponible" ItemStyle-Width="50px">
                         <ItemTemplate>
                             <div style="width:100%">

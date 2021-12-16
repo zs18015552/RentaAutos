@@ -70,18 +70,5 @@ namespace LogicaNegocio
             }
             return autos;
         }
-        public static List<VOAuto> ConsultarAutosPorOwner(string idOwner, bool? disponibilidad)
-        {
-            List<VOAuto> autos = null;
-            try
-            {
-                autos = DALAuto.ConsultarAutosPorOwner(int.Parse(idOwner), disponibilidad);
-            }
-            catch (Exception ex)
-            {
-                throw new ArgumentException("Error al consultar el registro");
-            }
-            return autos;
-        }
     }
 }

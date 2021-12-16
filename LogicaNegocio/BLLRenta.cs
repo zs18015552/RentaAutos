@@ -14,9 +14,9 @@ namespace LogicaNegocio
         {
             try
             {
-                VOPersona arrendatario = new VOPersona(renta.IdArrendatario, null, null, null, null, null, false, null);
+                VOPersona arrendatario = new VOPersona(renta.IdArrendatario, null, null, null, null, false, null);
                 BLLPersona.Actualizar(arrendatario);
-                VOAuto auto = new VOAuto(renta.IdAutos, null, null, null, null, null, false);
+                VOAuto auto = new VOAuto(renta.IdAutos, null, null, null, null, false);
                 BLLAuto.Actualizar(auto);
                 DALRenta.InsertarRenta(renta);
             }
