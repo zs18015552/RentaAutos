@@ -21,7 +21,7 @@ namespace Frontera.Catalogo.Autos
             if (e.CommandName == "Select")
             {
                 int index = int.Parse(e.CommandArgument.ToString());
-                string idAutos = gvAutos.DataKeys[index].Values["IdAutos"].ToString();
+                string idAutos = gvAutos.DataKeys[index].Values["IdAuto"].ToString();
                 Response.Redirect("EditarAuto.aspx?Id=" + idAutos);
             }
         }

@@ -12,13 +12,13 @@
         </div>
         <div class ="row col-md-10 col-md-offset-1">
             <asp:GridView ID="gvAutos" runat="server" AutoGenerateColumns="false"
-                DataKeyNames="IdAutos" OnRowCommand="gvAutos_RowCommand">
+                DataKeyNames="IdAuto" OnRowCommand="gvAutos_RowCommand">
                 <Columns>
                     <asp:ImageField HeaderText="Foto" ReadOnly="true"
                         DataImageUrlField="UrlFoto" ControlStyle-Width="110px"
                         ControlStyle-CssClass="fotogv"></asp:ImageField>
                     <asp:BoundField HeaderText="Id" ItemStyle-Width="50px"
-                        DataField="IdAutos" ReadOnly="true" />
+                        DataField="IdAuto" ReadOnly="true" />
                     <asp:BoundField HeaderText="Nombre" ItemStyle-Width="150px"
                         DataField="Nombre" />
                     <asp:BoundField HeaderText="Matricula" ItemStyle-Width="80px"

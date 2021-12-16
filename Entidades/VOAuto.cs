@@ -36,7 +36,7 @@ namespace Entidades
         }
         public VOAuto(DataRow fila)
         {
-            IdAuto = int.Parse(fila["IdAutos"].ToString());
+            this.IdAuto = int.Parse(fila["IdAutos"].ToString());
             this.Matricula = fila["Matricula"].ToString();
             this.Nombre = fila["Nombre"].ToString();
             this.Cuota = double.Parse(fila["Cuota"].ToString());

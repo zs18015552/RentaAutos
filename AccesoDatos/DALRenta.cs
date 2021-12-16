@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,20 +66,27 @@ namespace AccesoDatos
 
         public static List<VORentaExtendida> ConsultarRentasPorEstadoExtendida(string estado)
         {
-            List<VORentaExtendida> rentas = new List<VORentaExtendida>();
+            List<VORentaExtendida> lista = new List<VORentaExtendida>();
+            DataSet ds = new DataSet();
+            Conexion conexion = new Conexion();
+            SqlConnection cnn = new SqlConnection(conexion.CadenaConexion);
             try
             {
-                List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@Estado", SqlDbType.VarChar, estado));
-                DataTable datosRentas = Consulta.EjecutarConLlenado("SP_ConsultaRentasPorEstadoExtendida", parametros);
-                foreach (DataRow registro in datosRentas.Rows)
-                    rentas.Add(new VORentaExtendida(registro));
+                SqlCommand cmd = new SqlCommand("SP_ConsultarRentasPorEstadoExtendida", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Estado", SqlDbType.VarChar).Value = estado;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(ds, "Renta");
+                foreach (DataRow registro in ds.Tables[0].Rows)
+                {
+                    lista.Add(new VORentaExtendida(registro));
+                }
+                return lista;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw new ArgumentException("No se pudo consultar en la base de datos");
+                throw new ArgumentException("Error al consultar el registro de renta: " + ex.Message);
             }
-            return rentas;
         }
         
         public static VORenta ConsultarRentasPorId(int idRenta)
@@ -105,29 +113,22 @@ namespace AccesoDatos
 
         public static VORentaExtendida ConsultarRentasPorIdExtendida(int idRenta)
         {
-            VORentaExtendida renta;
+            DataSet ds = new DataSet();
+            Conexion conexion = new Conexion();
+            SqlConnection cnn = new SqlConnection(conexion.CadenaConexion);
             try
             {
-                List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@IdSalida", SqlDbType.Int, idRenta));
-                Dictionary<string, object> datos = Consulta.EjecutarLectura("SP_ConsultarRentasPorIdExtendida", parametros);
-                DateTime fechaHoraSalida = (DateTime)datos["FechaHoraSalida"];
-                string destino = (string)datos["Destino"];
-                string estado = (string)datos["Estado"];
-                int idBarco = int.Parse(datos["IdBarco"].ToString());
-                int idArrendatario = int.Parse(datos["IdPersona"].ToString());
-                string nombreAuto = (string)datos["NombreAuto"];
-                string urlFotoAuto = (string)datos["UrlFotoAuto"];
-                string nombreArrendatario = (string)datos["NombreArrendatario"];
-                string urlFotoArrendatario = (string)datos["UrlFotoArrendatario"];
-                renta = new VORentaExtendida(idRenta, fechaHoraSalida, destino, estado, idBarco, idArrendatario,
-                    nombreAuto, urlFotoAuto, nombreArrendatario, urlFotoArrendatario);
+                SqlCommand cmd = new SqlCommand("SP_ConsultarRentasPorIdExtendida", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@IdRenta", SqlDbType.Int).Value = idRenta;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(ds, "Renta");
+                return new VORentaExtendida(ds.Tables[0].Rows[0]);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw new ArgumentException("No se pudo consultar en la base de datos");
+                throw new ArgumentException("Error al consultar el registro de renta: " + ex.Message);
             }
-            return renta;
         }
         
     }

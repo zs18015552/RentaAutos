@@ -29,7 +29,7 @@ namespace AccesoDatos
             try
             {
                 List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@IdBarco", SqlDbType.Int, auto.IdAuto));
+                parametros.Add(new Parametro("@IdAutos", SqlDbType.Int, auto.IdAuto));
                 parametros.Add(new Parametro("@Matricula", SqlDbType.VarChar, auto.Matricula));
                 parametros.Add(new Parametro("@Nombre", SqlDbType.VarChar, auto.Nombre));
                 parametros.Add(new Parametro("@Cuota", SqlDbType.Decimal, auto.Cuota));
@@ -49,7 +49,7 @@ namespace AccesoDatos
             try
             {
                 List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@IdBarco", SqlDbType.Int, idAuto));
+                parametros.Add(new Parametro("@IdAuto", SqlDbType.Int, idAuto));
                 int rows = Consulta.EjecutarSinConsulta("SP_EliminarAuto", parametros);
                 return (rows != 0);
             }
@@ -65,7 +65,7 @@ namespace AccesoDatos
             try
             {
                 List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@IdBarco", SqlDbType.Int, idAuto));
+                parametros.Add(new Parametro("@IdAutos", SqlDbType.Int, idAuto));
                 Dictionary<string, object> datos = Consulta.EjecutarLectura("SP_ConsultarAutoPorId", parametros);
                 string matricula = (string)datos["Matricula"];
                 string nombre = (string)datos["Nombre"];

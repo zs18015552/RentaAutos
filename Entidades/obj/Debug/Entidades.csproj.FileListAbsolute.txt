@@ -20,4 +20,3 @@ C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\bin\Debug\Entidades.pdb
 C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.dll
 C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.pdb
-C:\Users\lrtmo\Documents\GitHub\RentaAutos\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache

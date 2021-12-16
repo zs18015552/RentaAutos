@@ -32,6 +32,12 @@ namespace Entidades
 
         public VORentaExtendida(DataRow dr) : base(dr)
         {
+            IdRenta = int.Parse(dr["IdRenta"].ToString()); ;
+            FechaHoraRenta = DateTime.Parse(dr["FechaHoraRenta"].ToString());
+            Destino = dr["Destino"].ToString(); ;
+            Estado = dr["Estado"].ToString();
+            IdAutos = int.Parse(dr["IdAutos"].ToString());
+            IdArrendatario = int.Parse(dr["IdPersona"].ToString());
             NombreArrendatario = dr["NombreArrendatario"].ToString();
             UrlFotoArrendatario = dr["UrlFotoArrendatario"].ToString();
             NombreAuto = dr["NombreAuto"].ToString();
