@@ -10,14 +10,14 @@
             <h3>Lista Autos</h3>
             <hr />
         </div>
-        <div class ="row col-md-10 col-md-offset-1">
+        <div align="center" class ="row col-md-10 col-md-offset-1">
             <asp:GridView ID="gvAutos" runat="server" AutoGenerateColumns="false"
-                DataKeyNames="IdAuto" OnRowCommand="gvAutos_RowCommand">
+                DataKeyNames="IdAuto" OnRowCommand="gvAutos_RowCommand" Width="703px" OnSelectedIndexChanged="gvAutos_SelectedIndexChanged">
                 <Columns>
                     <asp:ImageField HeaderText="Foto" ReadOnly="true"
-                        DataImageUrlField="UrlFoto" ControlStyle-Width="110px"
+                        DataImageUrlField="UrlFoto" ControlStyle-Width="200px"
                         ControlStyle-CssClass="fotogv"></asp:ImageField>
-                    <asp:BoundField HeaderText="Id" ItemStyle-Width="50px"
+                    <asp:BoundField HeaderText="Id" ItemStyle-Width="80px"
                         DataField="IdAuto" ReadOnly="true" />
                     <asp:BoundField HeaderText="Nombre" ItemStyle-Width="150px"
                         DataField="Nombre" />
@@ -36,6 +36,6 @@
                         Text="Seleccionar" CommandName="Select" />
                 </Columns>
             </asp:GridView>
-        </div>
+        </>
     </div>
 </asp:Content>

@@ -44,3 +44,16 @@ C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio
 C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
 C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
 C:\Users\lrtmo\Documents\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\BDAutos.mdf
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\BDAutos_log.ldf
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\AccesoDatos.dll
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\Entidades.dll
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\bin\Debug\Entidades.pdb
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+D:\Alex\Documentos\GitHub\RentaAutos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

@@ -39,8 +39,8 @@ namespace AccesoDatos
                 parametros.Add(new Parametro("@Direccion", SqlDbType.VarChar, persona.Direccion));
                 parametros.Add(new Parametro("@Telefono", SqlDbType.VarChar, persona.Telefono));
                 parametros.Add(new Parametro("@Correo", SqlDbType.VarChar, persona.Correo));
-                parametros.Add(new Parametro("@UrlFoto", SqlDbType.VarChar, persona.UrlFoto));
                 parametros.Add(new Parametro("@Disponibilidad", SqlDbType.Bit, persona.Disponibilidad));
+                parametros.Add(new Parametro("@UrlFoto", SqlDbType.VarChar, persona.UrlFoto));
                 int rows = Consulta.EjecutarSinConsulta("SP_ActualizarPersona", parametros);
                 return (rows != 0);
             }

@@ -10,13 +10,13 @@
             <h3>Lista Personas</h3>
             <hr />
         </div>
-        <div class="row col-md-10 col-md-offset-1">
+        <div align="center" class="row col-md-10 col-md-offset-1">
             <asp:GridView ID="gvPersonas"
                 runat="server" AutoGenerateColumns="false"
                 DataKeyNames="IdPersona" 
                 OnRowCommand="gvPersonas_RowCommand">
                 <Columns>
-                    <asp:ImageField HeaderText="Foto" ReadOnly="true" DataImageUrlField="UrlFoto" ControlStyle-Width="110px" ControlStyle-CssClass="fotogv"></asp:ImageField>
+                    <asp:ImageField HeaderText="Foto" ReadOnly="true" DataImageUrlField="UrlFoto" ControlStyle-Width="170px" ControlStyle-CssClass="fotogv"></asp:ImageField>
                     <asp:BoundField HeaderText="Id" ItemStyle-Width="50px" DataField="IdPersona" ReadOnly="true" />
                     <asp:BoundField HeaderText="Nombre" ItemStyle-Width="150px" DataField="Nombre" />
                     <asp:BoundField HeaderText="Dirección" ItemStyle-Width="200px" DataField="Direccion" />

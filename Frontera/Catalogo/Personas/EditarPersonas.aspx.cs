@@ -43,14 +43,17 @@ namespace Frontera.Catalogo.Personas
         {
             try
             {
-                VOPersona persona = new VOPersona(int.Parse(lblIdPersona.Text), txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, null, lblUrlFoto.InnerText);
+                VOPersona persona = new VOPersona(int.Parse(lblIdPersona.Text), 
+                    txtTelefono.Text, txtDireccion.Text, txtNombre.Text, 
+                    txtCorreo.Text, null, lblUrlFoto.InnerText);
                 BLLPersona.Actualizar(persona);
                 LimpiarFormulario();
                 Response.Redirect("ListaPersonas.aspx", false);
             }
             catch (Exception ex)
             {
-                ScriptManager.RegisterClientScriptBlock(this, GetType(), "Mensaje de Error", "alert('Se registró un error al realizar la operación');", true);
+                ScriptManager.RegisterClientScriptBlock(this, GetType(), 
+                    "Mensaje de Error", "alert('Se registró un error al realizar la operación');", true);
             }
         }
 

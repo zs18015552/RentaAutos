@@ -30,5 +30,10 @@ namespace Frontera.Catalogo.Autos
             gvAutos.DataSource = BLLAuto.ConsultarAutos(null);
             gvAutos.DataBind();
         }
+
+        protected void gvAutos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
