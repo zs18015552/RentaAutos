@@ -9,7 +9,7 @@
         <p class="lead">Buenas unidades, gran calidad, disponibilidad sin igual. 
             ¡Tu mejor opción!
         </p>
-        <div align="center"><img src="/Imagenes/Autos/Chevy.jpg" alt=""></div>
+        <div align="center"><img class="img-responsive"  src="/Imagenes/Autos/Chevy.jpg" alt=""></div>
         <p> </p>
         <p><a href="#" class="btn btn-primary btn-lg">¡Vamos! &raquo;</a></p>
     </div>

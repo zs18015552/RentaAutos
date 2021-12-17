@@ -18,7 +18,7 @@
             </div>
         </div>
          <div class="row form-group">
-            <label for="<%=txtNombre.ClientID %>">Nombre:</label>
+            <label for="<%=txtNombre.ClientID %>">Modelo:</label>
             <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control" placeholder="Nombre"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvtxtNombre" ValidationGroup="Guardar" runat="server" CssClass="text-danger" ControlToValidate="txtNombre" ErrorMessage="Nombre del barco requerido"></asp:RequiredFieldValidator>
         </div>

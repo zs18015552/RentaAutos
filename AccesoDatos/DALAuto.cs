@@ -49,11 +49,11 @@ namespace AccesoDatos
             try
             {
                 List<Parametro> parametros = new List<Parametro>();
-                parametros.Add(new Parametro("@IdAuto", SqlDbType.Int, idAuto));
+                parametros.Add(new Parametro("@IdAutos", SqlDbType.Int, idAuto));
                 int rows = Consulta.EjecutarSinConsulta("SP_EliminarAuto", parametros);
                 return (rows != 0);
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 throw new ArgumentException("No se pudo eliminar en la base de datos");
             }
